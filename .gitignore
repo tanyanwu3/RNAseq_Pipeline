@@ -1,0 +1,10 @@
+# Do not upload large sequencing data
+
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+*.sam
+*.bam
+*.bai
