@@ -8,3 +8,5 @@
 *.sam
 *.bam
 *.bai
+
+test_output/
