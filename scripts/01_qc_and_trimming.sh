@@ -75,6 +75,10 @@ echo "Error: Miniconda installer download was not successful"
 exit 1
 fi
 
+bash "$HOME/$MINICONDA_INSTALLER" \
+-b \
+-p "$HOME/miniconda3"
+
 fi
 
 # Create output directory
